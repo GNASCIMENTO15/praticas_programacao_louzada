@@ -1,0 +1,9 @@
+produtos = ['mouse', 'teclado', 'impressora']
+print('Relação')
+print('-'*20)
+for x in produtos:
+    print(x)
+print('-'*20)
+it3 = input('digite')
+produtos.append(it3)
+print(produtos)
